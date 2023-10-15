@@ -1,7 +1,7 @@
 # NAME: Reference
 # AUTHOR: xueycn
 # REPO: https://github.com/xueycn/T-Mobile_Rules
-# UPDATED: 2023-10-15 19:05:00
+# UPDATED: 2023-10-15 19:33:00
 # DOMAIN-KEYWORD: 0
 # DOMAIN-SUFFIX: 10
 # IP-CIDR: 3
@@ -19,6 +19,6 @@ payload:
   - DOMAIN-SUFFIX,epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
   - DOMAIN-SUFFIX,ss.epdg.epc.mnc260.mcc310.pub.3gppnetwork.org
   - DOMAIN-SUFFIX,ss.epdg.epc.geo.mnc260.mcc310.pub.3gppnetwork.org
-  - IP-CIDR, 208.54.0.0/16
-  - IP-CIDR, 66.94.0.0/19
-  - IP-CIDR, 206.29.176.0/22
+  - IP-CIDR, 208.54.0.0/16,no-resolve
+  - IP-CIDR, 66.94.0.0/19,no-resolve
+  - IP-CIDR, 206.29.176.0/22,no-resolve
